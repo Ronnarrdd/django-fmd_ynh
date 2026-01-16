@@ -51,26 +51,31 @@ ram.runtime = "50M" # **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, 
 
     [install.update_python] # __UPDATE_PYTHON__
     ask.en = "How to update Python? 'setup' will use redistributable Python builts (fast), 'install' will compile Python from source (slow)."
+    ask.fr = "Comment mettre à jour Python ? 'setup' utilisera des versions redistribuables de Python (rapide), 'install' compilera Python depuis les sources (lent)."
     type = "select"
     choices = ["INSTALL", "SETUP"]
     default = "SETUP"
 
     [install.default_from_email] # __DEFAULT_FROM_EMAIL__
     ask.en = "Default email address to use for various automated emails."
+    ask.fr = "Adresse e-mail par défaut pour les e-mails automatiques."
     type = "email"
     example = "admin@example.com"
 
     [install.admin_email] # __ADMIN_EMAIL__
-    ask.en = "EMail address for error emails."
+    ask.en = "Email address for error emails."
+    ask.fr = "Adresse e-mail pour les e-mails d'erreurs."
     type = "email"
     example = "admin@example.com"
 
     [install.debug_enabled] # __DEBUG_ENABLED__ will be set to "0" or "1" string
-    ask.en = "Should be never enabled in production!"
+    ask.en = "Debug mode (should never be enabled in production !)"
+    ask.fr = "Mode débogage (ne devrait jamais être activé en production !)"
     type = "boolean"
 
     [install.log_level] # __LOG_LEVEL__
     ask.en = "Logging level"
+    ask.fr = "Niveau de journalisation"
     type = "select"
     choices.debug = "DEBUG"
     choices.info = "INFO"

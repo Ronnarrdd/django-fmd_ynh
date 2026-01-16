@@ -14,5 +14,4 @@ It is the server component for the [FindMyDevice](https://gitlab.com/Nulide/find
 
 ### Integration with YunoHost
 
-- This package installs the Django-based FMD Server.
 - You need to install the FindMyDevice app on your Android device and configure it to point to your server URL.

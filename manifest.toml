@@ -4,6 +4,7 @@ packaging_format = 2
 id = "django-fmd"
 name = "Find My Device"
 description.en = "Track, wipe and issue other commands to your device when it's lost"
+description.fr = "Localisez, réinitialisez et envoyez d'autres commandes à votre appareil en cas de perte"
 
 version = "0.9.1~ynh2"
 
